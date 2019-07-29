@@ -1,5 +1,5 @@
 # Boson
-Real Time Fluid Dynamics
+Canvas Particle Engine
 
 ## License: Postcardware
 This software is not free!
