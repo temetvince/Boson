@@ -1,0 +1,30 @@
+{
+    "name": "Boson",
+    "version": "1.0.0",
+    "description": "Canvas Particle Engine",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/temetvince/Boson.git"
+    },
+    "keywords": [],
+    "author": "Emmett Casey <temetvince@gmail.com> (elcasey.com)",
+    "license": "Copyright 2019",
+    "bugs": {
+        "url": "https://github.com/temetvince/Boson/issues"
+    },
+    "homepage": "https://github.com/temetvince/Boson#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
