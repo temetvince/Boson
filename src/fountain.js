@@ -26,7 +26,6 @@ const getFountainEngine = (numberOfParticles, canvas, context) => {
 
     const effect = particle => {
         particle.motion.velocity.y *= -.7;
-        particle.motion.velocity.x *= 1;
         particle.motion.position.y = canvas.height * 0.75;
     };
 

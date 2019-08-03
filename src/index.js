@@ -1,4 +1,5 @@
 import getFountainEngine from './fountain';
+import getBoxEngine from './box';
 
 const NUMBER_OF_PARTICLES = 1500;
 const REDRAW_SPEED = 1;
@@ -17,6 +18,7 @@ window.addEventListener('resize', resizeCanvas, false);
 
 document.body.appendChild(canvas);
 
-const engine = getFountainEngine(NUMBER_OF_PARTICLES, canvas, context);
+//const engine = getFountainEngine(NUMBER_OF_PARTICLES, canvas, context);
+const engine = getBoxEngine(NUMBER_OF_PARTICLES, canvas, context);
 
 resizeCanvas();
